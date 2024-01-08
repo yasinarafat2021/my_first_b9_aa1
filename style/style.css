@@ -1,0 +1,67 @@
+/*  header section */
+.header{
+    
+    background-image: url("../resources/Banner Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.benner-greeting{
+    color: #FFF;
+    font-family: Merriweather;
+    text-align: center;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 530 177 531 383px;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+.contant.image img{
+    width: 802px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.section h1{
+    color: #f00;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.section h4{
+    color: #f00;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+.section h3{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding:0px;
+
+}
+ fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+.footer{
+    background-image: url("../resources/Vectorrr.png");
+}
