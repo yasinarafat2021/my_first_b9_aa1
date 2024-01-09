@@ -81,6 +81,7 @@ padding:0px;
     background-repeat: no-repeat;
     background-position: center;
     text-align: left;
+    
 }
 .about button{
     color: #331896;
@@ -99,6 +100,125 @@ padding:0px;
     line-height: 88px;
     letter-spacing: 7.04px;
 }
-.image img{
-    position: bottom right;
+.about img{
+    display: flex;
+    width: 280px;
+    height: 220px;
+    padding: 0px 0px 50px 800px;
+    justify-content: center;
+    align-items: center;
+    position: left center;
+}
+.title{
+    padding:130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.title button{
+    align-items: center;
+    border-radius: 7px;
+    background: #F00;
+    margin: 10px 0px 40px 550px;
+    font-size: 30px;
+}
+.section-title{
+    text-align: center;
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    padding: 10px 5px 4px 8px;
+    
+
+}
+.section-title span{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+}
+.Dolor{
+    
+    width: 1500px;
+    height: 850px;
+    background: #FFF8F3;
+}
+.Dolor img{
+    padding: 0px 40px 50px 500px;
+    
+    
+}
+.Dolor img .image{
+    padding: 0px 40px 50px 500px;
+}
+.head span{
+    color: #F00;
+    text-align: center;
+    font-size: 10px;
+    padding: 0px 10px 10px 50px;
+    display: flex;
+    
+}
+.dolor {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding: 0px 10px 10px 50px;
+}
+.head-title{
+    padding: 0px 10px 10px 50px;
+}
+.year{
+    color: #f00;
+    padding: 0px 10px 10px 1050px;
+}
+.dolor-s{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding: 0px 10px 10px 1050px;
+
+}
+.header-style{
+    text-align: center;
+    width: 1500px;
+    height: 850px;
+    background: #FFF8F3;
+}
+.header-style span{
+    color: #F00;
+}
+/*.header-style img{
+    padding-bottom: 10px;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;;
+}*/
+.image-1{
+    padding: 10px 20px 300px 0px;
+}
+.image-2{
+    padding:20px 10px 350px 200px ;
+}
+.image-3{
+    padding: 20px opx 300px 0px;
+}
+.image-4{
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    
+}
+.Dolor span{
+    color: #F00;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
