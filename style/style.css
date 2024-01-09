@@ -222,3 +222,65 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.box-container{
+    grid-template-columns: repeat(1, 3fr);
+    align-items: center;
+}
+.box-container .box{
+    position: relative;
+    border-radius: 0rem;
+    box-shadow: 0 0 0rem var(--big-color);
+    overflow: hidden;
+    display: flex;
+    
+}
+.box img{
+    width: 100%;
+}
+.head-style h1{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+
+}
+.head-style .pra{
+    text-align:  center;
+    padding:0px 0px 50px 50px ;
+
+}
+.head-style img{
+    padding: 0px 0px 0px 600px;
+}
+/*-----footer section----*/
+.git{
+    
+    width: 1500px;
+    height: 850px;
+    background: #57555a;
+}
+.footer h3{
+    margin: 0;
+}
+.footer h3,
+.footer h4{
+    color: var(--white-shade-1);
+    text-align: center;
+    color: #FFF;
+}
+.footer .row{
+    margin-bottom: 6rem;
+}
+.footer-about{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid var(--white-shade-1);
+}
+.social-link{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
